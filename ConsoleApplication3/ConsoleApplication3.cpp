@@ -11,15 +11,15 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	float t = 25, a, pi = 3.14, r, n;
-	double s, p;
+	double m, k;
 	n = t / pi;
 	r = sqrt(n);
 	a = r * 2;
-	p = 4 * a;
-	s = a * a;
+	m = 4 * a;
+	k = a * a;
 
-	printf("s = %lf", s);
-	printf("p = %lf", p);
+	printf("s = %lf", m);
+	printf("p = %lf", k);
 
 
 }
